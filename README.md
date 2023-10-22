@@ -16,11 +16,24 @@
 - implement signOut 
 - update profile
 - fetch TMDB movies api
-
+- Important Interview question WHAT MAJRO ISSUE YUO FACING IN YOUR PROJECT
+- bugfix: displayname and profile picture update
+- bugfix: if the user not logged in redirect to /borese page into logged in page and vice versa
+- Unsubscribed the onAuthStateChanged when componet go to unmounted state
+- add hardcoded values inside the constant file/folder
+- signUp TMDB movie api and create app and get acess token and api key
+- get data now playing movies list api
+- custom hook for now playing movies
+- create moviesSlice
+- update store with movies data
+- planning for trailer video 
+- fetch data for trailer video
+- update store with trailere video data
+- embedded the youtube video and make it autoplay and mute
+- tailwind classess to make main conteiner look awesome
 # featcher 
 - Login
    - signIn 
    - signUp
    - redirect browse page(after authentication)
 
-   - 
