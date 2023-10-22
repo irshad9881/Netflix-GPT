@@ -40,7 +40,7 @@ const Header=()=>{
        },[]);
     
     return (
-        <div className="absolute w-screen bg-gradient-to-b from-white border-b-2 px-8 py-2 z-10 flex justify-between bg-white bg-opacity-25">
+        <div className="absolute w-screen bg-gradient-to-b from-white border-b-2 px-8 py-2 z-10 flex justify-between bg-white bg-opacity-30 h-20">
             <img className ="w-40" src={LOGO} alt="logo" />
              {user&& <div className="flex p-4 ">
                 <img  className="w-10 h-10  p-1 cursor-pointer rounded-3xl" src={user?.photoURL} alt="userIcon" />
