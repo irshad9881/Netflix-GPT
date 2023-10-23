@@ -31,6 +31,15 @@
 - update store with trailere video data
 - embedded the youtube video and make it autoplay and mute
 - tailwind classess to make main conteiner look awesome
+- build secondary Componet
+- build movie card
+- TMDB image CDN URL
+- Made the Browse Page amazing with Tailwind CSS
+- use popolerMoveis Custom Hook
+- GPT serarch Page
+- GPT Search bar
+- Multi language Feature in our app
+- 
 # featcher 
 - Login
    - signIn 

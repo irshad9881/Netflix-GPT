@@ -12,15 +12,11 @@ const useMovieTrailer=(moveiId)=>{
         const json = await data.json();
         const filtedData = json.results.filter((video) => video.type === "Trailer")
         const trailer = filtedData.length ? filtedData[0] : json.results[0];
-        
         diaptch(addMovieTrailer(trailer));
         // setTrailerId(trailer.key);
-        
     }
-
     useEffect(() => {
         getMovieVideos();
     }, [])
-
 }
 export default useMovieTrailer;

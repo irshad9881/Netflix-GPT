@@ -8,7 +8,7 @@ const useComodianMovies=()=>{
     const getComodianMovies=async ()=>{
         const data=await fetch("https://api.themoviedb.org/3/tv/popular?page=1",API_OPTIONS);
         const json=await data.json();
-        console.log(json.results)
+        
         dispatch(addComodianMovies(json.results));
     }
     useEffect(()=>{
