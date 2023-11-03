@@ -5,7 +5,7 @@ const SecondrayContainer=()=>{
     
     return (
         <div className="bg-black"> 
-           <div className="-mt-40 pl-10  relative z-20">
+           <div className="mt-0 md:-mt-40 pl-2 md:pl-10  relative z-20 mb-2">
             <MoviesList title={"now playing"} movies={movies?.nowPlayingMovies}/>
             <MoviesList title={"Populr Movies"} movies={movies?.comodianMovies}/>
             <MoviesList title={"Tv Series Movies"} movies={movies?.tvSeriesMovies}/>

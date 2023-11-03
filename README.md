@@ -1,48 +1,23 @@
 # Netflix-GPT
 - npx create-react-app PROJECTNAME
 - configured TailwindCSS
-- header
-- routing of app
-- login form
-- signUP Form 
-- form validation 
-- useRef hook
-- firebase setup
-- deploy our app to production
-- create signUp user account 
-- implement signIn user API
-- create app store with userSlice
-- useNavigate hook come from react-router-dom
-- implement signOut 
-- update profile
-- fetch TMDB movies api
-- Important Interview question WHAT MAJRO ISSUE YUO FACING IN YOUR PROJECT
-- bugfix: displayname and profile picture update
-- bugfix: if the user not logged in redirect to /borese page into logged in page and vice versa
-- Unsubscribed the onAuthStateChanged when componet go to unmounted state
-- add hardcoded values inside the constant file/folder
-- signUp TMDB movie api and create app and get acess token and api key
-- get data now playing movies list api
-- custom hook for now playing movies
-- create moviesSlice
-- update store with movies data
-- planning for trailer video 
-- fetch data for trailer video
-- update store with trailere video data
-- embedded the youtube video and make it autoplay and mute
-- tailwind classess to make main conteiner look awesome
-- build secondary Componet
-- build movie card
-- TMDB image CDN URL
-- Made the Browse Page amazing with Tailwind CSS
-- use popolerMoveis Custom Hook
-- GPT serarch Page
-- GPT Search bar
-- Multi language Feature in our app
-- 
-# featcher 
+- Header 
+- Routing 
+- Login and Sign In /Sign Up form
+- Form validation
+- useRef Hook 
+
+# featcher
+ 
 - Login
-   - signIn 
-   - signUp
-   - redirect browse page(after authentication)
+  - Sign In /Sign UP
+  - redirect to browse page'
+- Browse page(after authentication)
+  - search bar
+  - Header 
+  - Main movie
+  - Tailer in Background 
+  - Title and description
+      - movie suggention
+      - movie list
 

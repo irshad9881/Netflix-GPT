@@ -7,6 +7,7 @@ import useTvSeries from "../hooks/useTVSeries";
 import useComodianMovies from "../hooks/useComodianMovies";
 import GptSearchPage from "./GptSearchPage";
 import { useSelector } from "react-redux";
+import Footer from "./Footer";
 const Browse=()=>{
         const showGptSearchPage=useSelector(store=>store.gpt.showGptSearchPage);
         useNowPlayingMovies();
@@ -20,8 +21,10 @@ const Browse=()=>{
               <> 
               <MainContainer/>
               <SecondrayContainer/>
+              <Footer/> 
               </>
-              } 
+              }
+             
               {/* 
                 -main Container
                   -background movies
